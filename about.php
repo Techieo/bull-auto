@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About · Bull Auto</title>
+  <meta name="description" content="Bull Auto - AI-Powered Automotive Procurement and Intelligence Platform." />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body>
+
+<nav class="ba-navbar">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a class="ba-brand" href="index.php">
+      <span class="logo-mark">B<span class="accent">A</span></span>
+      Bull Auto
+    </a>
+    <button class="navbar-toggler d-lg-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <i class="bi bi-list fs-3"></i>
+    </button>
+    <div class="collapse navbar-collapse d-lg-flex flex-lg-grow-1 justify-content-lg-end gap-lg-3" id="mainNav">
+      <ul class="navbar-nav flex-row flex-wrap gap-2 align-items-lg-center mb-0">
+        <li class="nav-item"><a class="ba-nav-link nav-link" href="index.php">Home</a></li><li class="nav-item"><a class="ba-nav-link nav-link fw-bold" href="about.php">About</a></li><li class="nav-item"><a class="ba-nav-link nav-link" href="pricing.php">Pricing</a></li><li class="nav-item"><a class="ba-nav-link nav-link" href="contact.php">Contact</a></li>
+      </ul>
+      <div class="d-flex gap-2 mt-3 mt-lg-0 align-items-center">
+        <button class="theme-toggle" title="Toggle theme"><i class="bi bi-moon"></i></button>
+        <a href="login.php" class="btn btn-ba-outline">Log in</a>
+        <a href="register.php" class="btn btn-ba-primary">Get Started</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="ba-page-header">
+  <div class="container"><h1>About Bull Auto</h1><p>Reinventing automotive commerce with AI.</p></div>
+</section>
+<section class="ba-section">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <span class="ba-tag" style="color:var(--ba-orange);font-weight:600;text-transform:uppercase">Our Mission</span>
+        <h2 class="fw-bold mt-2">Make automotive trade frictionless, fair, and intelligent</h2>
+        <p class="text-muted">We exist to connect every supplier, technician and vehicle owner on the planet through a transparent, AI-driven marketplace that levels the playing field — whether you ship a million units a year or run a single-bay garage.</p>
+      </div>
+      <div class="col-lg-6">
+        <span class="ba-tag" style="color:var(--ba-orange);font-weight:600;text-transform:uppercase">Our Vision</span>
+        <h2 class="fw-bold mt-2">The operating system of the global auto economy</h2>
+        <p class="text-muted">By 2030, Bull Auto will route over 10% of global automotive aftermarket commerce, with AI handling sourcing, logistics, diagnostics and payments end-to-end.</p>
+      </div>
+    </div>
+    <div class="row g-4 mt-4">
+      
+      <div class="col-md-6 col-lg-3"><div class="ba-card h-100"><div class="icon-box"><i class="bi bi-globe"></i></div><h4>Global Reach</h4><p>Supplier network across 160+ countries with localized payments.</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="ba-card h-100"><div class="icon-box"><i class="bi bi-shield-check"></i></div><h4>Trust First</h4><p>Verified businesses, escrow and dispute resolution baked in.</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="ba-card h-100"><div class="icon-box"><i class="bi bi-cpu"></i></div><h4>AI Everywhere</h4><p>Forecasting, matching and routing models on every transaction.</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="ba-card h-100"><div class="icon-box"><i class="bi bi-heart"></i></div><h4>People Centered</h4><p>Built with technicians and small workshops — not against them.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<footer class="ba-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <a class="ba-brand text-white" href="index.php">
+          <span class="logo-mark">B<span class="accent">A</span></span>
+          Bull Auto
+        </a>
+        <p class="mt-3 mb-0" style="max-width:340px;color:#cbd5e1">
+          The AI-powered automotive procurement and intelligence platform
+          connecting suppliers, technicians, and vehicle owners worldwide.
+        </p>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <h5>Platform</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.php#features">Features</a></li>
+          <li><a href="pricing.php">Pricing</a></li>
+          <li><a href="index.php#ai">AI Suite</a></li>
+          <li><a href="index.php#suppliers">Suppliers</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <h5>Company</h5>
+        <ul class="list-unstyled">
+          <li><a href="about.php">About</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <li><a href="contact.php">Support</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-lg-4">
+        <h5>Stay updated</h5>
+        <p style="color:#cbd5e1">Get product updates and AI insights monthly.</p>
+        <form class="d-flex gap-2">
+          <input type="email" class="form-control" placeholder="you@company.com" />
+          <button class="btn btn-ba-orange" type="button">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
+      <span>© <span data-year></span> Bull Auto Inc. All rights reserved.</span>
+      <span>Privacy · Terms · Security</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>

@@ -3,7 +3,7 @@
 AI-powered automotive procurement, parts marketplace, technician matching, logistics and analytics — pure HTML5, CSS3, Bootstrap 5 and vanilla JS.
 
 ## Run locally
-Just open `index.html` in your browser, or serve with any static server:
+Just open `index.php` in your browser, or serve with any static server:
 
 ```bash
 python3 -m http.server 8080

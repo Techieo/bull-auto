@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vehicle Owner · Diagnostics · Bull Auto</title>
+  <meta name="description" content="Bull Auto - AI-Powered Automotive Procurement and Intelligence Platform." />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/dashboard.css" />
+  <link rel="stylesheet" href="../assets/css/responsive.css" />
+</head>
+<body>
+
+<div class="ba-app">
+  <aside class="ba-sidebar">
+    <a class="ba-brand" href="../index.php"><span class="logo-mark">B<span class="accent">A</span></span> Bull Auto</a>
+    <div class="nav-section">Vehicle Owner</div>
+    <a class="nav-link" href="dashboard.php"><i class="bi bi-grid"></i>Dashboard</a><a class="nav-link" href="vehicles.php"><i class="bi bi-car-front"></i>My Vehicles</a><a class="nav-link" href="marketplace.php"><i class="bi bi-shop"></i>Spare Parts</a><a class="nav-link" href="../technician/requests.php"><i class="bi bi-tools"></i>Technicians</a><a class="nav-link active" href="diagnostics.php"><i class="bi bi-clipboard2-pulse"></i>Diagnostics</a><a class="nav-link" href="orders.php"><i class="bi bi-bag-check"></i>Orders</a>
+    <div class="nav-section">Account</div>
+    <a class="nav-link" href="../index.php"><i class="bi bi-box-arrow-right"></i>Log out</a>
+  </aside>
+  <div class="ba-backdrop"></div>
+  <div class="ba-main">
+    <header class="ba-topbar">
+      <button class="menu-toggle"><i class="bi bi-list"></i></button>
+      <div class="search"><i class="bi bi-search"></i><input placeholder="Search orders, parts, suppliers…"></div>
+      <div class="right">
+        <button class="theme-toggle"><i class="bi bi-moon"></i></button>
+        <button class="icon-btn" title="Notifications"><i class="bi bi-bell"></i><span class="dot"></span></button>
+        <button class="icon-btn" title="Messages"><i class="bi bi-chat-dots"></i></button>
+        <div class="avatar">JD</div>
+      </div>
+    </header>
+    <div class="ba-content">
+<div class="ba-page-title"><div><h1>Self diagnostics</h1><p>Describe symptoms — our AI suggests likely causes.</p></div></div>
+<div class="row g-3">
+  <div class="col-lg-6"><div class="ba-panel">
+    <div class="mb-3"><label class="form-label">Vehicle</label>
+      <select class="form-select"><option>BMW 320i 2019</option><option>Renault Clio 2018</option></select>
+    </div>
+    <div class="mb-3"><label class="form-label">What is happening?</label><textarea class="form-control" rows="5" placeholder="Squealing when braking…"></textarea></div>
+    <button class="btn btn-ba-primary">Diagnose</button>
+  </div></div>
+  <div class="col-lg-6"><div class="ba-panel">
+    <h3 class="h5 fw-bold mb-3">Likely causes</h3>
+    <div class="ba-ai-card mb-2"><div class="d-flex justify-content-between"><strong>Worn brake pads</strong><span class="score">92%</span></div><div class="bar"><span style="width:92%"></span></div></div>
+    <div class="ba-ai-card"><div class="d-flex justify-content-between"><strong>Warped disc</strong><span class="score">63%</span></div><div class="bar"><span style="width:63%"></span></div></div>
+  </div></div>
+</div></div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/app.js"></script>
+<script src="../assets/js/charts.js"></script><script src="../assets/js/dashboard.js"></script>
+</body>
+</html>

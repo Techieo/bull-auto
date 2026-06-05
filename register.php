@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Create your account · Bull Auto</title>
+  <meta name="description" content="Bull Auto - AI-Powered Automotive Procurement and Intelligence Platform." />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body>
+
+<div class="ba-auth-wrap">
+  <aside class="ba-auth-side">
+      <div>
+        <a class="ba-brand text-white" href="index.php"><span class="logo-mark">B<span class="accent">A</span></span> Bull Auto</a>
+        <h2 class="mt-5 fw-bold" style="font-size:2rem">AI-powered automotive commerce</h2>
+        <p class="mt-3" style="opacity:.9;max-width:420px">Source parts, match technicians, and ship globally — backed by escrow and predictive logistics.</p>
+      </div>
+      <div class="d-flex gap-3 flex-wrap">
+        <div><div class="fw-bold fs-4">12K+</div><div style="opacity:.8">Suppliers</div></div>
+        <div><div class="fw-bold fs-4">160+</div><div style="opacity:.8">Countries</div></div>
+        <div><div class="fw-bold fs-4">99.95%</div><div style="opacity:.8">Uptime</div></div>
+      </div></aside>
+  <main class="ba-auth-form">
+    <div class="ba-form-card">
+      <h2>Create your account</h2>
+      <p class="sub">Select your account type and tell us about your business.</p>
+      
+    <ul class="nav nav-pills mb-3 flex-wrap" id="regTabs" role="tablist">
+      <li class="nav-item"><button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab-supplier">Supplier</button></li>
+      <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-wholesaler">Wholesaler</button></li>
+      <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-retailer">Retailer</button></li>
+      <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-tech">Technician</button></li>
+      <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-owner">Vehicle Owner</button></li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="tab-supplier">
+        <div class="row g-3">
+          <div class="col-md-6"><label class="form-label">Company name</label><input class="form-control" placeholder="Bosch Auto Parts GmbH"></div>
+          <div class="col-md-6"><label class="form-label">Registration number</label><input class="form-control" placeholder="HRB 12345"></div>
+          <div class="col-md-6"><label class="form-label">Tax certificate (Upload)</label><input type="file" class="form-control"></div>
+          <div class="col-md-6"><label class="form-label">Address</label><input class="form-control" placeholder="Stuttgart, Germany"></div>
+          <div class="col-md-6"><label class="form-label">Contact email</label><input type="email" class="form-control" placeholder="sales@bosch.com"></div>
+          <div class="col-md-6"><label class="form-label">Phone</label><input class="form-control" placeholder="+49 711 4000"></div>
+          <div class="col-md-6"><label class="form-label">Bank / IBAN</label><input class="form-control" placeholder="DE89 3704 0044 0532 0130 00"></div>
+          <div class="col-md-6"><label class="form-label">Product categories</label>
+            <select class="form-select" multiple><option>Brakes</option><option>Engine</option><option>Electrical</option><option>Body</option><option>Tires</option></select>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="tab-wholesaler">
+        <div class="row g-3">
+          <div class="col-md-6"><label class="form-label">Business name</label><input class="form-control"></div>
+          <div class="col-md-6"><label class="form-label">Tax registration</label><input class="form-control"></div>
+          <div class="col-md-6"><label class="form-label">Email</label><input class="form-control" type="email"></div>
+          <div class="col-md-6"><label class="form-label">Phone</label><input class="form-control"></div>
+          <div class="col-12"><label class="form-label">Payment information</label><input class="form-control" placeholder="Bank account / IBAN"></div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="tab-retailer">
+        <div class="row g-3">
+          <div class="col-md-6"><label class="form-label">Business name</label><input class="form-control"></div>
+          <div class="col-md-6"><label class="form-label">Business permit</label><input class="form-control"></div>
+          <div class="col-md-6"><label class="form-label">Location</label><input class="form-control"></div>
+          <div class="col-md-6"><label class="form-label">Contact</label><input class="form-control"></div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="tab-tech">
+        <div class="row g-3">
+          <div class="col-md-6"><label class="form-label">Full name</label><input class="form-control"></div>
+          <div class="col-md-6"><label class="form-label">National ID</label><input class="form-control"></div>
+          <div class="col-md-6"><label class="form-label">Phone</label><input class="form-control"></div>
+          <div class="col-md-6"><label class="form-label">Profile photo</label><input class="form-control" type="file"></div>
+          <div class="col-md-6"><label class="form-label">Certifications</label><input class="form-control" type="file"></div>
+          <div class="col-md-6"><label class="form-label">Specialization</label>
+            <select class="form-select"><option>Engine repair</option><option>Electrical & ECU</option><option>Body & paint</option><option>Tires & alignment</option></select>
+          </div>
+          <div class="col-md-6"><label class="form-label">Service region</label><input class="form-control"></div>
+          <div class="col-md-6"><label class="form-label">Payment information</label><input class="form-control"></div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="tab-owner">
+        <div class="row g-3">
+          <div class="col-md-6"><label class="form-label">Full name</label><input class="form-control"></div>
+          <div class="col-md-6"><label class="form-label">Email</label><input class="form-control" type="email"></div>
+          <div class="col-md-6"><label class="form-label">Phone</label><input class="form-control"></div>
+          <div class="col-md-6"><label class="form-label">Vehicle (Make / Model / Year)</label><input class="form-control" placeholder="Toyota Camry 2021"></div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-4 d-flex gap-2">
+      <button type="button" class="btn btn-ba-primary">Create account</button>
+      <a href="login.php" class="btn btn-ba-outline">I already have an account</a>
+    </div>
+    
+    </div>
+  </main>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
