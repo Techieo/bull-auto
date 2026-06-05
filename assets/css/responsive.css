@@ -1,0 +1,21 @@
+/* Bull Auto - Responsive tweaks */
+@media (max-width: 768px) {
+  .ba-hero { padding: 60px 0 80px; }
+  .ba-section { padding: 50px 0; }
+  .ba-cta { padding: 40px 24px; }
+  .ba-cta h2 { font-size: 1.5rem; }
+  .ba-section-title h2 { font-size: 1.6rem; }
+  .ba-price-card.featured { transform: none; }
+  .ba-page-header { padding: 50px 0; }
+  .ba-page-header h1 { font-size: 1.8rem; }
+  .ba-form-card { padding: 24px; }
+  .ba-content { padding: 18px; }
+  .ba-topbar { padding: 12px 16px; }
+  .ba-topbar .search { display: none; }
+  .ba-stat .value { font-size: 1.5rem; }
+}
+@media (max-width: 576px) {
+  .ba-hero h1 { font-size: 1.8rem; }
+  .ba-hero .lead { font-size: 1rem; }
+  .btn-ba-primary, .btn-ba-orange, .btn-ba-outline { padding: 9px 16px; font-size: .92rem; }
+}
